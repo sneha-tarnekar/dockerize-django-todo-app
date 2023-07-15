@@ -92,11 +92,11 @@ Declare volume which will get bind to the service.
 ---
 
 # Docker compose up
-You are now ready to run
+Now, with the below command, you are now ready to build and execute your docker-compose.yml, It creates containers for mentioned services. 
 ```shell
 docker-compose up
 ```
-to build and execute your docker-compose.yml, It creates container for mentioned services. You can run with detached mode by adding `-d` flag. 
+You can run in detached mode by adding `-d` flag. 
 ```shell
 docker-compose up -d
 ```
